@@ -1024,7 +1024,7 @@ const Home = ({ services = [], testimonies = [], faqs = [], generals = [] }) => 
                             <div className="flex items-center space-x-3 mb-6">
                                <img
 
-                                        src="/assets/img/logo.png"
+                                        src="/assets/img/logo-white.png"
                                         alt="Dokux Logo"
                                         className="h-[40px] w-auto md:h-[50px] object-cover object-top"
                                     />
