@@ -1015,20 +1015,21 @@ const Home = ({ services = [], testimonies = [], faqs = [], generals = [] }) => 
             </section>
 
             {/* Footer */}
-            <footer className="bg-gradient-to-r from-gray-900 via-[#36C4E4] to-gray-900 text-white py-16 relative overflow-hidden">
+            <footer className="bg-gradient-to-r from-gray-900 via-[#0a87a3] to-gray-900 text-white pt-16 pb-6 relative overflow-hidden">
                 <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop')] bg-cover bg-center opacity-10"></div>
 
                 <div className="container mx-auto px-4 relative z-10">
                     <div className="grid md:grid-cols-3 gap-12">
                         <div>
                             <div className="flex items-center space-x-3 mb-6">
-                                <FileText className="h-10 w-10 text-[#36C4E4]" />
-                                <div>
-                                    <div className="text-2xl font-bold">Dokux</div>
-                                    <div className="text-gray-400">Asesoría y Gestión</div>
-                                </div>
+                               <img
+
+                                        src="/assets/img/logo.png"
+                                        alt="Dokux Logo"
+                                        className="h-[40px] w-auto md:h-[50px] object-cover object-top"
+                                    />
                             </div>
-                            <p className="text-gray-300 leading-relaxed mb-6">
+                            <p className="text-white leading-relaxed mb-6">
                                 {t.footer.description}
                             </p>
                             <div className="flex space-x-4 mb-6">
@@ -1055,7 +1056,7 @@ const Home = ({ services = [], testimonies = [], faqs = [], generals = [] }) => 
 
                         <div>
                             <h4 className="text-xl font-bold mb-6">{t.footer.services}</h4>
-                            <ul className="space-y-3 text-gray-300">
+                            <ul className="space-y-3 text-white">
                                 {services?.map((service, index) => (
                                     <li key={index} className="hover:text-[#36C4E4] transition-colors duration-300 cursor-pointer flex items-center space-x-2">
                                         <ArrowRight className="h-4 w-4" />
@@ -1067,7 +1068,7 @@ const Home = ({ services = [], testimonies = [], faqs = [], generals = [] }) => 
 
                         <div>
                             <h4 className="text-xl font-bold mb-6">{t.footer.contact}</h4>
-                            <div className="space-y-4 text-gray-300">
+                            <div className="space-y-4 text-white">
                                 <div className="flex items-center space-x-3">
                                     <Phone className="h-5 w-5 text-[#36C4E4]" />
 
@@ -1104,7 +1105,7 @@ const Home = ({ services = [], testimonies = [], faqs = [], generals = [] }) => 
                         </div>
                     </div>
 
-                    <div className="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
+                    <div className="border-t border-gray-700 mt-12 pt-8 text-center text-white">
                         <p>© {new Date().getFullYear()} Dokux Asesoría y Gestión. Todos los derechos reservados. Power by <a href='https://mundoweb.pe' className='font-semibold'>Mundo Web</a></p>
                     </div>
                 </div>
