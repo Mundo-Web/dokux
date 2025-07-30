@@ -1015,7 +1015,7 @@ const Home = ({ services = [], testimonies = [], faqs = [], generals = [] }) => 
             </section>
 
             {/* Footer */}
-            <footer className="bg-gradient-to-r from-gray-900 via-[#0a87a3] to-gray-900 text-white pt-16 pb-6 relative overflow-hidden">
+            <footer className="bg-gradient-to-r from-gray-900 via-[#36C4E4] to-gray-900 text-white pt-16 pb-6 relative overflow-hidden">
                 <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop')] bg-cover bg-center opacity-10"></div>
 
                 <div className="container mx-auto px-4 relative z-10">
