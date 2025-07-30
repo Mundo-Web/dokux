@@ -1015,7 +1015,7 @@ const Home = ({ services = [], testimonies = [], faqs = [], generals = [] }) => 
             </section>
 
             {/* Footer */}
-            <footer className="bg-gradient-to-r from-gray-900 via-[#36C4E4] to-gray-900 text-white pt-16 pb-6 relative overflow-hidden">
+            <footer className="bg-gradient-to-r from-gray-900 via-[#268ba1] to-gray-900 text-white pt-16 pb-6 relative overflow-hidden">
                 <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop')] bg-cover bg-center opacity-10"></div>
 
                 <div className="container mx-auto px-4 relative z-10">
@@ -1105,7 +1105,7 @@ const Home = ({ services = [], testimonies = [], faqs = [], generals = [] }) => 
                         </div>
                     </div>
 
-                    <div className="border-t border-gray-700 mt-12 pt-8 text-center text-white">
+                    <div className="border-t border-gray-700 mt-12 pt-6 text-center text-white">
                         <p>© {new Date().getFullYear()} Dokux Asesoría y Gestión. Todos los derechos reservados. Power by <a href='https://mundoweb.pe' className='font-semibold'>Mundo Web</a></p>
                     </div>
                 </div>
