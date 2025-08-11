@@ -11,8 +11,8 @@ export const translations = {
             title: {
                 your: "Tus",
                 procedures: "Trámites",
-                inSpain: "en España ,fáciles ",
-                with: ",fáciles ",
+                inSpain: "en España, fáciles ",
+                with: ", fáciles ",
                 security: "y",
                 speed: "sin",
                 trust: "complicaciones"
