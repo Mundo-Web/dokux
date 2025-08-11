@@ -173,8 +173,8 @@ const Thanks = ({ session }) => {
                             </p>
                         </motion.div>
 
-                        {/* Información de respuesta */}
-                        <motion.div
+                        {/* Información de respuesta
+                           <motion.div
                             initial={{ y: 30, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
                             transition={{ delay: 1.1, duration: 0.8 }}
@@ -189,6 +189,8 @@ const Thanks = ({ session }) => {
                                 <p className="text-2xl font-bold text-green-300">24-48 horas hábiles</p>
                             </div>
                         </motion.div>
+                        */}
+                     
 
                         {/* Botón de retorno */}
                         <motion.div

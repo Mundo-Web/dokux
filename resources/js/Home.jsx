@@ -471,7 +471,7 @@ const Home = ({ services = [], testimonies = [], faqs = [], generals = [] }) => 
                                 </span>
                                 <br />{t.hero.title.inSpain}{' '}
                                 <span className="text-white drop-shadow-lg" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
-                                    {t.hero.title.security}, {t.hero.title.speed} {language === 'es' ? 'y' : 'and'} {t.hero.title.trust}
+                                    {t.hero.title.security} {t.hero.title.speed} {language === 'es' ? '' : ''} {t.hero.title.trust}
                                 </span>
                             </h1>
                         </div>

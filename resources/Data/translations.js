@@ -11,15 +11,15 @@ export const translations = {
             title: {
                 your: "Tus",
                 procedures: "Trámites",
-                inSpain: "en España con",
-                with: "con",
-                security: "Seguridad",
-                speed: "Rapidez",
-                trust: "Confianza"
+                inSpain: "en España ,fáciles ",
+                with: ",fáciles ",
+                security: "y",
+                speed: "sin",
+                trust: "complicaciones"
             },
-            subtitle: "Dokux Asesoría y Gestión - Especialistas en trámites para peruanos en España. Te acompañamos en todos tus procesos migratorios, laborales y administrativos",
+            subtitle: "En DOKUX te acompañamos paso a paso en tus procesos migratorios, laborales y administrativos. Somos especialistas en ayudar a personas extranjeras a obtener su residencia, nacionalidad o reagrupación familiar en España, con la rapidez, seguridad y confianza que mereces.",
             cta: {
-                freeConsultation: "Consulta Gratuita",
+                freeConsultation: "Habla con un asesor ahora",
                 knowServices: "Conoce Nuestros Servicios"
             },
             stats: {
@@ -59,7 +59,7 @@ export const translations = {
             }
         },
         services: {
-            title: "¿Cómo Puedo Ayudarte?",
+            title: "Nuestros Servicios",
             subtitle: "Servicios legales especializados para turistas peruanos en España",
             items: {
                 migration: {
@@ -86,7 +86,7 @@ export const translations = {
         },
         testimonials: {
             title: "Lo que Dicen Nuestros Clientes",
-            subtitle: "Testimonios reales de peruanos que hemos ayudado en España",
+            subtitle: "",
             items: [
                 {
                     name: "Carlos Mendoza",
@@ -110,7 +110,7 @@ export const translations = {
         },
         profile: {
             title: "Dokux Asesoría y Gestión",
-            subtitle: "Empresa especializada en asesoría y gestión de trámites para peruanos en España. Nuestro compromiso es brindar seguridad, rapidez y confianza en todos nuestros servicios.",
+            subtitle: "En Dokux somos especialistas en asesoría y gestión de trámites de extranjería e inmigración en España. Con más de 5 años de experiencia, acompañamos a personas de Latinoamérica, Europa y otras partes del mundo en el proceso de vivir, trabajar o estudiar en España. Lo hacemos de manera rápida, segura y con total transparencia, para que su camino sea más sencillo y sin complicaciones.",
             values: {
                 security: {
                     title: "Seguridad",
@@ -159,7 +159,7 @@ export const translations = {
         },
         contact: {
             title: "Contáctanos Ahora",
-            subtitle: "Primera consulta gratuita. Estamos aquí para ayudarte.",
+            subtitle: "Estamos aquí para ayudarte.",
             info: {
                 phone: "Teléfono",
                 email: "Email",
@@ -197,7 +197,7 @@ export const translations = {
             }
         },
         footer: {
-            description: "Especialistas en trámites para peruanos en España. Seguridad, rapidez y confianza en todos nuestros servicios.",
+            description: "Asesoría especializada en extranjería, con experiencia ayudando a personas, a alcanzar su estabilidad legal en España",
             services: "Servicios",
             contact: "Contacto",
             copyright: "© 2024 Dokux Asesoría y Gestión. Todos los derechos reservados.",
@@ -219,15 +219,15 @@ export const translations = {
             title: {
                 your: "Your",
                 procedures: "Procedures",
-                inSpain: "in Spain with",
-                with: "with",
-                security: "Security",
-                speed: "Speed",
-                trust: "Trust"
+                inSpain: "in Spain, made",
+                with: ", made",
+                security: "easy",
+                speed: "and",
+                trust: "hassle-free"
             },
-            subtitle: "Dokux Advisory and Management - Specialists in procedures for Peruvians in Spain. We accompany you in all your immigration, labor and administrative processes",
+            subtitle: "At DOKUX, we guide you step-by-step through your immigration, employment, and administrative processes. We specialize in helping foreigners obtain their residence, citizenship, or family reunification in Spain, with the speed, security, and trust you deserve.",
             cta: {
-                freeConsultation: "Free Consultation",
+                freeConsultation: "Talk to an advisor now",
                 knowServices: "Know Our Services"
             },
             stats: {
@@ -267,7 +267,7 @@ export const translations = {
             }
         },
         services: {
-            title: "How Can I Help You?",
+            title: "Our Services",
             subtitle: "Specialized legal services for Peruvian tourists in Spain",
             items: {
                 migration: {
@@ -294,7 +294,7 @@ export const translations = {
         },
         testimonials: {
             title: "What Our Clients Say",
-            subtitle: "Real testimonials from Peruvians we have helped in Spain",
+            subtitle: "",
             items: [
                 {
                     name: "Carlos Mendoza",
@@ -318,7 +318,7 @@ export const translations = {
         },
         profile: {
             title: "Dokux Advisory and Management",
-            subtitle: "Company specialized in advisory and management of procedures for Peruvians in Spain. Our commitment is to provide security, speed and trust in all our services.",
+            subtitle: "At Dokux, we specialize in immigration consulting and application management in Spain. With over 5 years of experience, we help people from Latin America, Europe, and around the world achieve their dream of living, working, or studying in Spain. We do it quickly, safely, and with complete transparency, making the process simpler and hassle-free.",
             values: {
                 security: {
                     title: "Security",
@@ -367,7 +367,7 @@ export const translations = {
         },
         contact: {
             title: "Contact Us Now",
-            subtitle: "First consultation free. We are here to help you.",
+            subtitle: "We are here to help you.",
             info: {
                 phone: "Phone",
                 email: "Email",
@@ -405,7 +405,7 @@ export const translations = {
             }
         },
         footer: {
-            description: "Specialists in procedures for Peruvians in Spain. Security, speed and trust in all our services.",
+            description: "Specialized immigration consultancy, with experience helping people achieve legal stability in Spain",
             services: "Services",
             contact: "Contact",
             copyright: "© 2024 Dokux Advisory and Management. All rights reserved.",
