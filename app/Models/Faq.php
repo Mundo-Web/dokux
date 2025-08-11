@@ -20,4 +20,9 @@ class Faq extends Model
         'status',
         'lang_id',
     ];
+    protected $casts = [
+        'visible' => 'boolean',
+        'status' => 'boolean',
+
+    ];
 }
