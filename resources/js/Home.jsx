@@ -502,9 +502,9 @@ const Home = ({ services = [], testimonies = [], faqs = [], generals = [] }) => 
                         {/* Stats */}
                         <div className={`grid grid-cols-3 gap-8 mt-16 transform transition-all duration-1000 delay-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
                             {[
-                                { number: '500+', label: t.hero.stats.successfulCases },
-                                { number: '15+', label: t.hero.stats.yearsExperience },
-                                { number: '98%', label: t.hero.stats.successRate }
+                                { number: '1000+', label: t.hero.stats.successfulCases },
+                                { number: '5+', label: t.hero.stats.yearsExperience },
+                                { number: '99%', label: t.hero.stats.successRate }
                             ].map((stat, index) => (
                                 <div key={index} className="text-center group">
                                     <div className="text-3xl md:text-4xl font-bold text-white group-hover:scale-110 transition-transform duration-300 drop-shadow-lg" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
