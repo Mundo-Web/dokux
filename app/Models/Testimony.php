@@ -24,6 +24,11 @@ class Testimony extends Model
         'case'
 
     ];
+    protected $casts = [
+        'visible' => 'boolean',
+        'status' => 'boolean',
+
+    ];
     public function lang()
     {
         return $this->belongsTo(Lang::class);
