@@ -23,9 +23,9 @@ export const translations = {
                 knowServices: "Conoce Nuestros Servicios"
             },
             stats: {
-                successfulCases: "Casos Exitosos",
+                successfulCases: "Trámites Exitosos",
                 yearsExperience: "Años Experiencia",
-                successRate: "Éxito en Casos"
+                successRate: "Satisfacción Cliente"
             }
         },
         problems: {
@@ -60,7 +60,7 @@ export const translations = {
         },
         services: {
             title: "Nuestros Servicios",
-            subtitle: "Servicios legales especializados para turistas peruanos en España",
+            subtitle: "",
             items: {
                 migration: {
                     title: "Asesoría Migratoria",
@@ -231,9 +231,9 @@ export const translations = {
                 knowServices: "Know Our Services"
             },
             stats: {
-                successfulCases: "Successful Cases",
+                successfulCases: "Successful Procedures",
                 yearsExperience: "Years Experience",
-                successRate: "Success Rate"
+                successRate: "Customer Satisfaction"
             }
         },
         problems: {
@@ -268,7 +268,7 @@ export const translations = {
         },
         services: {
             title: "Our Services",
-            subtitle: "Specialized legal services for Peruvian tourists in Spain",
+            subtitle: "",
             items: {
                 migration: {
                     title: "Immigration Advisory",
