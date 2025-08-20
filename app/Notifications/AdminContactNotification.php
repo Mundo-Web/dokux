@@ -53,7 +53,7 @@ class AdminContactNotification extends Notification
                 'customer_email' => $this->message->email,
                 'customer_phone' => $this->message->phone ?? $this->message->subject ?? 'No especificado',
                 'tipo_contacto' => $this->message->contact_type ?? 'No especificado',
-                'message_subject' => $this->message->description,
+                'message_subject' =>  $this->message->service_id ? $this->message->service->name : 'No especificado',
                 'message_content' => $this->message->description,
                 'ruc' => $this->message->ruc ?? 'No especificado',
                 'nombre_servicio' => $this->message->service_id ? $this->message->service->name : 'No especificado',
