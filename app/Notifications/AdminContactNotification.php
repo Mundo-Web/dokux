@@ -51,9 +51,9 @@ class AdminContactNotification extends Notification
             ? \App\Helpers\Text::replaceData($template->description, [
                 'customer_name' => $this->message->name,
                 'customer_email' => $this->message->email,
-                'customer_phone' => $this->message->phone ?? 'No especificado',
+                'customer_phone' => $this->message->phone ?? $this->message->subject ?? 'No especificado',
                 'tipo_contacto' => $this->message->contact_type ?? 'No especificado',
-                'message_subject' => $this->message->subject,
+                'message_subject' => $this->message->description,
                 'message_content' => $this->message->description,
                 'ruc' => $this->message->ruc ?? 'No especificado',
                 'nombre_servicio' => $this->message->service_id ? $this->message->service->name : 'No especificado',
